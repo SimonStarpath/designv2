@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,34 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+    flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+            src: "image/web-development-banner.jpg?width=1100&height=150&crop-to-fit"
 ---
-Om
+Om kursen
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Kursens fullständiga namn är **Teknisk webbdesign och användbarhet**.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Kursens innehåll
+----------------
+Kursen omfattar följande områden:
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+- Färglära och färgsättning av en webbplats
+- Typografi
+- Lagar och regler kring webbplatser
+- Anpassa webbplats för funktionshindrade
+- Grid-baserad layout, horisontell och vertikal
+- CSS-konstruktioner för style med CSS/LESS/SASS
+- Bygga tema till webbplats
+- Använda PHP-ramverk för att skapa och designa webbplats
+- Sökmotoroptimering
+
+[FIGURE src=image/web-design.jpg?w=500 caption="Web design"]

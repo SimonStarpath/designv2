@@ -1,25 +1,31 @@
 ---
-title: "Min fina titel"
+title: "Me-sidan"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
+    flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+            src: "image/books.jpg?width=1100&height=150&crop-to-fit"
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/bookbinding-tools.jpg?w=500" class="left" caption="Bokbinderiverktyg"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag heter Simon Stjärnerstig och hunnit komma halvvägs i arbetslivet. I grunden har jag en civilingenjörsexamen i teknisk fysik med inriktning på reglerteknik från LTH. Direkt efter examen kastades jag in i mobilbranchen och där har jag haft min vistelse de senaste 20 åren. De första 10 åren var det C-programmering i inbyggda system. D senaste 10 åren har det handlat om Java-programmering av appar och services i Android-miljö. Nu är det dags att förvärva nya kunskaper så man inte helt stagnerar i sin professionella utveckling.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Varför bilder på märkliga verktyg på denna sida då? Jo, det har att göra med min huvudsakliga hobby, som är bokbinderi. Det går ut i stort sett på att plocka isär böcker och  sätta ihop dem på ett bättre sätt, så att de förhoppningsvis håller i ytterligare 100 år och mer därtill. Jag är speciellt intresserad av historiska inbindningar, dvs binda in böcker som man gjorde under medeltiden och fram till 1700-talet.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+[FIGURE src="image/chilli-pepper-christmas-bell.jpg?w=100" class="right" caption="Christmas Bell chili"]
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+En annan trevlig hobby jag har är att odla chili, med lite varierande framgång på våra breddgrader; eftersom jag inte har ett vettigt växthus så blir det frilandsodling och å är man utlämnad till vädrets makter som bestämmer om det ska bli någon skörd eller inte. Just nu är jag förtjust i att odla en sort som heter Christmas Bell, en frisk och inte alltför stark sort, men som är en fröjd för ögat!

@@ -1,4 +1,10 @@
 ---
+views:
+    flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+            src: "image/pen-and-paper.jpg?width=1100&height=150&crop-to-fit"
 ---
 Redovisningstexter
 =========================
