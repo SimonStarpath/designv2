@@ -1,4 +1,4 @@
-<div class="author-byline" style="margin-top: 50px;">
+<div class="author-byline">
     <figure class="figure left">
     <img class="byline-me" src="img/icon_bb_small.png" alt="Email me: "/>
     </figure>
