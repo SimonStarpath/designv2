@@ -1,24 +1,28 @@
 ---
 title: "Test-sida"
 views:
-    byline:
-        region: main
-        template: anax/v2/block/default
-        sort: 2
-        data:
-            meta:
-                type: single
-                route: block/byline
     flash:
         region: flash
         template: anax/v2/image/default
-        data:
-            src: "image/books.jpg?width=1100&height=150&crop-to-fit"
----
-Markdown text
-=========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/test.md`.
+    left-info:
+        region: sidebar-left
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/test-left
+
+    right-info:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/test-right
+---
+Mittsektion
+===========
 
 Sidan visar hur text ser ut när det stylas med Markdown
 ***

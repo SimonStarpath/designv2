@@ -1,0 +1,148 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+/*.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}*/
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+// .outer-wrap {
+//      overflow: auto;
+// }
+
+.inner-wrap {
+    background-color: orange;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Header */
+.inner-wrap-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: @bgColorHtml;
+    max-width: 90%;
+}
+
+.outer-wrap-header {
+    //overflow: auto;
+    background-color: @bgColorHtml;
+    margin-bottom: 10px;
+}
+
+.site-logo {
+    display: none;
+}
+
+.region-header {
+    display: flex;
+}
+
+
+.my-navbar {
+    list-style-type: none;
+}
+
+.my-navbar li {
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Main and sidebars */
+.region-main {
+    width: 100%;
+
+    &.has-sidebar {
+        width: 70%;
+        float: left;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+        float: left;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    float: left;
+}
+
+.inner-wrap-main {
+    overflow: auto;
+}
+
+.left {
+    float: left;
+    margin-right: 10px;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.article {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.author-byline {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.block {
+    padding-top: 10px;
+}
+
+/* Footer */
+.region-footer>.block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+// .columns {
+//     margin: auto;
+// }
+
+.footer-column {
+    width: 30.5%;
+    margin-top: 10px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 5px;
+    border: 2px solid black;
+    position: relative;
+    display:inline-block;
+}
