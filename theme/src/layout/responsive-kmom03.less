@@ -1,0 +1,72 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .my-navbar li {
+        padding: 0;
+    }
+
+    .region-header-col-1,
+    .region-header-col-3 {
+        #desinax-vgrid.column(3);
+    }
+
+    .region-header-col-2 {
+        #desinax-vgrid.column(18);
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .rm-default a {
+        padding: 1em 0.5em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .region-main,
+    .region-sidebar-left,
+    .region-sidebar-right.has-sidebar-left {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-main.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right,
+    .region-main.has-sidebar-left.has-sidebar-right,
+    .region-sidebar-left.has-sidebar-right,
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .rm-desktop {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    .rm-small {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .rm-small {
+        display: none;
+    }
+}
