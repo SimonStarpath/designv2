@@ -1,0 +1,56 @@
+/*!
+ * Stylesheet for design kmom04 - dark.
+ *
+ * Dark style, uses black
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "kmom04.less";
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ @bgColorHtml: #000;
+ @bgColorBody: #111;
+ @bgColorInnerMain: #222;
+
+ @colorH1BorderBottom: #aaa;
+ @colorH2BorderBottom: #aaa;
+ @colorH3BorderBottom: #aaa;
+ @colorH4BorderBottom: #aaa;
+ @colorH5BorderBottom: #aaa;
+ @colorH6BorderBottom: #aaa;
+
+ a {
+     color: #61c2ab;
+ }
+
+.region-header li a {
+    //color: white;
+    text-shadow: 2px 2px #222;
+}
+
+body {
+    color: #ffcc2e;
+    //color: #61c2ab;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    color: #ffcc2e;
+}
+
+a {
+    color: #61c2ab;
+}
+ // Set font family to use
+ @fontFamilyHeadings:  @fontFamilyGaramond; //@fontFamilyCambria;
+ @fontFamilyBody:      @fontFamilyCourier; //@fontFamilyMyriadPro;
+ @fontFamilyCode:      @fontFamilyCourier;
+
+ // Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;

@@ -1,0 +1,37 @@
+/*!
+ * Stylesheet for design kmom04 - minimalistic.
+ *
+ * Minimalistic style, black text on all white canvas
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ @bgColorHtml: white;
+ @bgColorBody: white;
+ @bgColorInnerMain: white;
+
+ @colorH1BorderBottom: #666;
+ @colorH2BorderBottom: #888;
+ @colorH3BorderBottom: #aaa;
+ @colorH4BorderBottom: #aaa;
+ @colorH5BorderBottom: #aaa;
+ @colorH6BorderBottom: #aaa;
+
+li a {
+    text-shadow: 2px 2px white;
+}
+ // Set font family to use
+ @fontFamilyHeadings:  "Lobster Two", cursive;
+ @fontFamilyBody:      "Lobster Two", cursive;
+ @fontFamilyCode:      @fontFamilyCourier;
+
+ // Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 20px;

@@ -18,8 +18,6 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
 [FIGURE src="image/bookbinding-tools.jpg?w=500" class="left" caption="Bokbinderiverktyg"]
 
 Jag heter Simon Stjärnerstig och hunnit komma halvvägs i arbetslivet. I grunden har jag en civilingenjörsexamen i teknisk fysik med inriktning på reglerteknik från LTH. Direkt efter examen kastades jag in i mobilbranchen och där har jag haft min vistelse de senaste 20 åren. De första 10 åren var det C-programmering i inbyggda system. D senaste 10 åren har det handlat om Java-programmering av appar och services i Android-miljö. Nu är det dags att förvärva nya kunskaper så man inte helt stagnerar i sin professionella utveckling.

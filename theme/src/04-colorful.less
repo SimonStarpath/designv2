@@ -1,0 +1,52 @@
+/*!
+ * Stylesheet for design kmom04 - colorful.
+ *
+ * Colorful style, uses the triad color model
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "kmom04.less";
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ @bgColorHtml: #a50bb3;
+ @bgColorBody: #1bcca2;
+ @bgColorInnerMain: #ffcc2e;
+
+ @colorH1BorderBottom: #666;
+ @colorH2BorderBottom: #888;
+ @colorH3BorderBottom: #aaa;
+ @colorH4BorderBottom: #aaa;
+ @colorH5BorderBottom: #aaa;
+ @colorH6BorderBottom: #aaa;
+
+.region-header li a {
+    //color: white;
+    text-shadow: 2px 2px #a50bb3;
+}
+
+body {
+    color: #a50bb3;
+    //color: #61c2ab;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    color: #ffcc2e;
+}
+
+.region-footer a {
+    color: #61c2ab;
+}
+ // Set font family to use
+ @fontFamilyHeadings:  @fontFamilyCambria;
+ @fontFamilyBody:      @fontFamilyMyriadPro;
+ @fontFamilyCode:      @fontFamilyCourier;
+
+ // Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
