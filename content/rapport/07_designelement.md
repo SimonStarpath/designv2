@@ -28,10 +28,10 @@ Jag använder två gradienter: den ena går diagonalt på body-elementet från v
 ######Typsnitt
 Jag väljer att använda typsnittet <a href="https://fonts.google.com/specimen/Caveat">Caveat</a>, som jag upplever som både lekfull och lättläst.
 
-#######Bilder
+######Bilder
 Jag väljer att lägga en vit padding runt bilderna för att få lite polaroid-effekt på den. Dessutom vrider jag bilderna på vänster sida moturs och bilderna på högersida medurs för att få lite rörelse i sidan och även för att leda ögat mot mitten på sidan, dvs mot textinnehållet.
 
-#######Rymd
+######Rymd
 Mina bilder får en skugga så de lyfter från sidan, detta förstärker intrycket av att man tittar på bilderna först innan ögat leds mot texten.
 
 ######Linjer
