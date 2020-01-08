@@ -15,6 +15,7 @@ views:
         data:
             src: "image/books.jpg?width=1100&height=150&crop-to-fit"
 ---
+
 Min me-sida i kursen design
 =========================
 

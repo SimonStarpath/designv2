@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom05.
+ * Stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom05 where we use LESS.
+ * This stylesheet is for the design course and kmom06 where we use LESS.
  */
 /**
   * Normalize and reset the style.
@@ -4732,13 +4732,13 @@ template {
  */
 html {
   overflow-y: scroll;
-  background-color: burlywood;
+  background-color: white;
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: salmon;
-  font: 16px/1.5 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  background-color: white;
+  font: 20px/1.2 MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 h1,
 h2,
@@ -4760,7 +4760,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.01052632;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4778,7 +4778,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.28;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -4788,7 +4788,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.37142857;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4798,7 +4798,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4808,7 +4808,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4817,7 +4817,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.92;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4967,7 +4967,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.37142857;
   text-align: left;
   font-style: italic;
 }
@@ -5350,14 +5350,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: orange;
+  background-color: transparent;
 }
 /* Header */
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: burlywood;
+  background-color: white;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5378,7 +5378,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   }
 }
 .outer-wrap-header {
-  background-color: burlywood;
+  background-color: white;
 }
 .site-logo {
   display: none;
@@ -5479,10 +5479,10 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   margin-right: 0.52083333%;
 }
 .outer-wrap-footer {
-  background-color: burlywood;
+  background-color: white;
 }
 .inner-wrap-footer {
-  background-color: burlywood;
+  background-color: white;
 }
 /**
  * Figure and figcaption for images and other media using figure/figcaption
@@ -5728,3 +5728,56 @@ figure.figure-codepen {
 /**
  * My own settings, not currently in their own module.
  */
+.rm-desktop ul li {
+  text-shadow: 2px 2px #fff;
+}
+.author-byline {
+  border: 5px solid white;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.byline-description {
+  display: inline;
+}
+.figure,
+.figure.figure {
+  position: relative;
+  -moz-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  background: white;
+}
+body {
+  background: url("../image/DSC_426.jpg?r=90");
+}
+.region-flash img {
+  width: 99%;
+  margin-top: 10px;
+  border: 5px solid white;
+}
+.inner-wrap-main {
+  border: 5px solid white;
+  color: yellow;
+  text-shadow: 5px 5px 8px #000000;
+  background: url("../image/DSC_423.jpg?width=1100&crop-to-fit");
+  margin-bottom: 10px;
+}
+.inner-wrap-header {
+  background: url("../image/DSC_421.jpg?r=90");
+  color: yellow;
+  text-shadow: 4px 4px 8px #555;
+  font-weight: bold;
+  border-bottom: 5px solid white;
+}
+.inner-wrap-footer {
+  background: transparent;
+}
+.outer-wrap-footer {
+  border-top: 5px solid white;
+  color: yellow;
+  text-shadow: 4px 4px 8px #555;
+  background: url("../image/DSC_425.jpg?r=90");
+}

@@ -1,0 +1,154 @@
+/*!
+ * Stylesheet for design kmom06.
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/base-kmom03.less";
+
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Import the vertical grid
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure(900px);
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+//@import "layout/responsive.less";
+@import "layout/responsive-kmom03.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=latin-ext');
+
+/**
+ * My own settings, not currently in their own module.
+ */
+ @bgColorHtml: burlywood;
+ @bgColorBody: salmon;
+ @bgColorInnerMain: orange;
+
+ // Set font family to use
+ @fontFamilyHeadings:  "Caveat";
+ @fontFamilyBody:      "Caveat";
+ @fontFamilyCode:      "Caveat";
+
+ // Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 22px;
+
+body {
+    background-image: linear-gradient(to bottom left, #ff746b, #2d7bcc);
+}
+
+.rm-desktop ul li {
+    text-shadow: 2px 2px #fff;
+}
+
+.inner-wrap-main {
+    background-image: linear-gradient(to bottom right, #e6ff24, #ff746b);
+}
+
+.author-byline {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.byline-description {
+    display: inline;
+}
+
+.figure,
+.figure.figure {
+    position: relative;
+    -moz-box-shadow: 2px 4px 6px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+.figure.left {
+    padding: 5px;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Safari 3-8 */
+    transform: rotate(-3deg);
+}
+
+.figure.right {
+    padding: 5px;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Safari 3-8 */
+    transform: rotate(3deg);
+}
