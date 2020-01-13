@@ -90,6 +90,21 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Rapport för designprinciper/impl.",
                     ],
+                    [
+                        "text" => "Designprincip implementation",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport för designprinciper/impl.",
+                    ],
+                    [
+                        "text" => "Webbplatsdesign (uppdrag 1)",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Rapport för webbplatsdesign (uppdrag 1)",
+                    ],
+                    [
+                        "text" => "Design och webbplatser (uppdrag 2)",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Rapport för design coh webbplatser (uppdrag 2)",
+                    ],
                 ],
             ],
         ],

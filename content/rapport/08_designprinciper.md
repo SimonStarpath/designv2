@@ -1,6 +1,6 @@
 ---
 ---
-Rapport kmom08 - designprinciper
+Rapport kmom06 - designprinciper
 =========================
 
 De designprinciper jag ville åskådliggöra i min design är Harmoni och Rörelse. En idè som fick fäste var att använda foton av vackra, mönstrade japanska papper för att få fram det, tyvärr är min kamera ganska dålig på att fånga upp färgrikedomen och känslan i dem. Jag använder fotona som bakgrunder till olika element som bygger upp webbplatsen. Jag har inte riktigt fått bra kontrast på typsnittet, men är tyvärr jättesen med inlämningsuppgiften och pausar den förfiningen.
